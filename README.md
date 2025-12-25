@@ -23,7 +23,7 @@ Despite the data source change, the model successfully reproduced the "Crisis Al
 | **Sharpe Ratio** | 1.23 | **2.06** |
 | **Max Drawdown** | -7.74% | **-7.19%** |
 
-*(See `rEport.pdf` for full performance breakdown)*
+*(See `momentumTransformerReport.pdf` for full performance breakdown)*
 
 ## 🧠 Architecture
 The model utilizes a **Decoder-Only Temporal Fusion Transformer (TFT)** with:
