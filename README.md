@@ -10,7 +10,7 @@ This repository contains a **re-engineered implementation** of the *Momentum Tra
 While the original research relied on paid institutional data (Quandl) and legacy dependencies, this implementation adapts the architecture to be **accessible and reproducible** on consumer hardware.
 
 ## 🛠️ Key Engineering Adaptations
-* [cite_start]**Data Pipeline Migration:** Replaced the deprecated/paid Quandl data feed with a robust scraper for **Yahoo Finance**, engineering continuous futures data from ~100 liquid tickers[cite: 197].
+* **Data Pipeline Migration:** Replaced the deprecated/paid Quandl data feed with a robust scraper for **Yahoo Finance**, engineering continuous futures data from ~100 liquid tickers.
 * **Framework Upgrade:** Ported the model architecture to **TensorFlow 2.x** (from legacy versions), utilizing modern Keras functional APIs for the Attention mechanisms.
 * **Local Optimization:** Refactored the training loop to run efficiently on a single GPU/CPU setup (Personal PC) rather than requiring a research cluster.
 
